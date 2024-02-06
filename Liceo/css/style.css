@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5%;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    left: 0;
+    color: #f1f1f1;
+}
+
+header a {
+    text-decoration: none;
+    color: #f1f1f1;
+    margin-right: 2pc;
+    background-color: transparent;
+    padding: 3.2px;
+    border-radius: 14px;
+}
+
+header a:hover {
+    background-color: rgba(127, 255, 212, 0.466);
+}
+
+header #logo {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+
+header #logo img {
+    margin-right: 10px;
+    width: 90px;
+}
+
+#portada {
+    padding: 20%;
+    padding-bottom: 20%;
+    display: flex;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#portada h1 {
+    margin-right: 20px;
+    font-size: 3em;
+    margin-top: 6%;
+}
+
+#portada button {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#portada button:hover {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+#cajaliceo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgba(127, 255, 212, 0.315);
+    padding: 3%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#cajaliceo button {
+    margin: 20px;
+    padding: 20px;
+}
+
+#cajaliceo p {
+    font-size: 1.5em;
+}
+
+#grados {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    padding: 6%;
+    align-items: center;
+}
+
+#grados h1 {
+    margin-bottom: 50px;
+}
+
+#grados .container {
+    display: flex;
+    padding-bottom: 10%;
+    max-height: 400px;
+}
+
+#grados .container section h3 {
+    padding: 5%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+#grados .container #primero h3 {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/imagenportada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(128, 122, 122);
+    margin: 1%;
+}
+
+#grados .container #segundo h3 {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/imagenportada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(128, 122, 122);
+    margin: 1%;
+}
+
+#grados .container #tercero h3 {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/imagenportada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(128, 122, 122);
+    margin: 1%;
+}
+
+#primero,
+#segundo,
+#tercero {
+    background-color: rgb(75, 72, 72);
+    max-height: 400px;
+    margin: 1%;
+    width: 900px;
+}
+
+#primero button {
+    padding: 2%;
+    margin: 2%;
+    background-color: rgba(127, 255, 212, 0.514);
+    border-radius: 10px;
+}
+
+#segundo button {
+    padding: 2%;
+    margin: 2%;
+    background-color: rgba(127, 255, 212, 0.514);
+    border-radius: 10px;
+}
+
+#tercero button {
+    padding: 2%;
+    margin: 2%;
+    background-color: rgba(127, 255, 212, 0.514);
+    border-radius: 10px;
+}
+
+#tercero button {
+    padding: 2%;
+    margin: 2%;
+    background-color: rgba(127, 255, 212, 0.514);
+    border-radius: 10px;
+}
+
+#jefes {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    width: 100%;
+    justify-content: center;
+}
+
+#jefes h1 {
+    margin-bottom: 50px;
+}
+
+#jefes #admin {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: 13.3%;
+}
+
+#direccion {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/imagenportada.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: 15px;
+}
+
+
+#orientacion {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/imagenportada.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: 15px;
+}
+
+#coordinacion {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/imagenportada.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: 15px;
+}
+
+#direccion h3 {
+    border-bottom: 1px white solid;
+    margin-bottom: 10px;
+}
+
+#direccion p {
+    text-align: justify;
+    font-size: small;
+}
+
+#coordinacion h3 {
+    border-bottom: 1px white solid;
+    margin-bottom: 10px;
+}
+
+#coordinacion p {
+    text-align: justify;
+    font-size: small;
+}
+
+#orientacion h3 {
+    border-bottom: 1px white solid;
+    margin-bottom: 10px;
+}
+
+#orientacion p {
+    text-align: justify;
+    font-size: small;
+}
+
+#admin button {
+    padding: 2%;
+    margin-top: 10px;
+    background-color: rgba(127, 255, 212, 0.514);
+    border-radius: 10px;
+}
+
+#inscripcion {
+    width: 500px;
+    background-color: rgb(122, 119, 119);
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-family: 'calibri';
+    color: white;
+    margin-top: 100px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+#inscripcion h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid darkblue;
+    font-family: 'calibri';
+    color: white;
+}
+
+#inscripcion p {
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#inscripcion a {
+    text-decoration: none;
+}
+
+#inscripcion a:hover {
+    text-decoration: underline;
+}
+
+#inscripcion .boton {
+    width: 100%;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+}
+
+footer {
+    text-align: end;
+    padding-top: 5%;
+}
